@@ -18,3 +18,5 @@
 | --- | :---------------: |
 | Day1 | [네트워크 연결](https://www.acmicpc.net/problem/1922) |
 | Day2 | [트리](https://www.acmicpc.net/problem/4256) |
+| Day3 | [공통 부분 문자열](https://www.acmicpc.net/problem/5582) |
+| Day4 | [수 묶기](https://www.acmicpc.net/problem/1744) |
