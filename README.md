@@ -21,3 +21,4 @@
 | Day3 | [공통 부분 문자열](https://www.acmicpc.net/problem/5582) |
 | Day4 | [수 묶기](https://www.acmicpc.net/problem/1744) |
 | Day5 | [보물섬](https://www.acmicpc.net/problem/2589) |
+| Day6 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) |
