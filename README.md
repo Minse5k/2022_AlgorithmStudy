@@ -14,11 +14,12 @@
 - Github 활용
 
 ## :green_book: Daily Study
-|     |    문제   |
-| --- | :---------------: |
+|     |    문제1   | 문제2 | 문제3 |
+| --- | :---------------: | :---------------: | :---------------: |
 | Day1 | [네트워크 연결](https://www.acmicpc.net/problem/1922) |
 | Day2 | [트리](https://www.acmicpc.net/problem/4256) |
 | Day3 | [공통 부분 문자열](https://www.acmicpc.net/problem/5582) |
 | Day4 | [수 묶기](https://www.acmicpc.net/problem/1744) |
 | Day5 | [보물섬](https://www.acmicpc.net/problem/2589) |
 | Day6 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) |
+| Day7 | [암호 만들기](https://www.acmicpc.net/problem/1759) | [ACM Craft](https://www.acmicpc.net/problem/1005) | [트리](https://www.acmicpc.net/problem/1068) | 
