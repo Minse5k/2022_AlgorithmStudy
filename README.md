@@ -22,4 +22,5 @@
 | Day4 | [수 묶기](https://www.acmicpc.net/problem/1744) |
 | Day5 | [보물섬](https://www.acmicpc.net/problem/2589) |
 | Day6 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) |
-| Day7 | [암호 만들기](https://www.acmicpc.net/problem/1759) | [ACM Craft](https://www.acmicpc.net/problem/1005) | [트리](https://www.acmicpc.net/problem/1068) | 
+| Day7 | [암호 만들기](https://www.acmicpc.net/problem/1759) | [ACM Craft](https://www.acmicpc.net/problem/1005) |
+| Day8 | [트리](https://www.acmicpc.net/problem/1068) | [아기 상어](https://www.acmicpc.net/problem/16236) |
