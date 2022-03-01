@@ -24,4 +24,5 @@
 | Day6 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) |
 | Day7 | [암호 만들기](https://www.acmicpc.net/problem/1759) | [ACM Craft](https://www.acmicpc.net/problem/1005) |
 | Day8 | [트리](https://www.acmicpc.net/problem/1068) | [아기 상어](https://www.acmicpc.net/problem/16236) | [치킨 배달](https://www.acmicpc.net/problem/15686)|
-| Day8 | [적록색약](https://www.acmicpc.net/problem/100026) | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | [개미굴](https://www.acmicpc.net/problem/14725)|
+| Day9 | [적록색약](https://www.acmicpc.net/problem/100026) | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | [개미굴](https://www.acmicpc.net/problem/14725)|
+| Day10 | [최단경로](https://www.acmicpc.net/problem/1753) | [](https://www.acmicpc.net/problem/7576) | |
