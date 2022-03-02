@@ -26,3 +26,4 @@
 | Day8 | [트리](https://www.acmicpc.net/problem/1068) | [아기 상어](https://www.acmicpc.net/problem/16236) | [치킨 배달](https://www.acmicpc.net/problem/15686)|
 | Day9 | [적록색약](https://www.acmicpc.net/problem/100026) | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | [개미굴](https://www.acmicpc.net/problem/14725)|
 | Day10 | [최단경로](https://www.acmicpc.net/problem/1753) | [](https://www.acmicpc.net/problem/7576) | |
+| Day11 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | | |
