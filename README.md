@@ -29,3 +29,4 @@
 | Day11 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | | |
 | Day12 | [연구소](https://www.acmicpc.net/problem/14502) | | |
 | Day13 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | [파티](https://www.acmicpc.net/problem/1238) | |
+| Day14 | [알고스팟](https://www.acmicpc.net/problem/1261) | [플로이드](https://www.acmicpc.net/problem/11404) | |
