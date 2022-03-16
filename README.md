@@ -31,3 +31,4 @@
 | Day13 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | [파티](https://www.acmicpc.net/problem/1238) | |
 | Day14 | [알고스팟](https://www.acmicpc.net/problem/1261) | [플로이드](https://www.acmicpc.net/problem/11404) | |
 | Day15 | [스타트 택시](https://www.acmicpc.net/problem/19238) | | |
+| Day16 | [스티커 붙이기](https://www.acmicpc.net/problem/18808) | | |
