@@ -33,3 +33,4 @@
 | Day15 | [스타트 택시](https://www.acmicpc.net/problem/19238) | | |
 | Day16 | [스티커 붙이기](https://www.acmicpc.net/problem/18808) | | |
 | Day17 | [파이프 옮기기1](https://www.acmicpc.net/problem/17070) | | |
+| Day18 | [내리막 길](https://www.acmicpc.net/problem/1520) | | |
