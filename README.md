@@ -38,3 +38,4 @@
 | Day20 | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | | |
 | Day21 | [테트로미노](https://www.acmicpc.net/problem/14500) | [LCS](https://www.acmicpc.net/problem/9251) | |
 | Day22 | [선 긋기](https://www.acmicpc.net/problem/2170) | | |
+| Day22 | [평범한 배낭](https://www.acmicpc.net/problem/12865) | | |
