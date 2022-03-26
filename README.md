@@ -40,3 +40,4 @@
 | Day22 | [선 긋기](https://www.acmicpc.net/problem/2170) | | |
 | Day23 | [평범한 배낭](https://www.acmicpc.net/problem/12865) | | |
 | Day24 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | | |
+| Day25 | [교환](https://www.acmicpc.net/problem/1039) | | |
