@@ -41,4 +41,4 @@
 | Day23 | [평범한 배낭](https://www.acmicpc.net/problem/12865) | | |
 | Day24 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | | |
 | Day25 | [교환](https://www.acmicpc.net/problem/1039) | | |
-| Day26 | [뮤탈리스크](https://www.acmicpc.net/problem/12869) | | |
+| Day26 | [사다리 조작](https://www.acmicpc.net/problem/15684) | | |
