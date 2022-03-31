@@ -42,3 +42,4 @@
 | Day24 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | | |
 | Day25 | [교환](https://www.acmicpc.net/problem/1039) | | |
 | Day26 | [사다리 조작](https://www.acmicpc.net/problem/15684) | | |
+| Day27 | [단어 수학](https://www.acmicpc.net/problem/1339) | [소문난 칠공주](https://www.acmicpc.net/problem/1941) | [치즈](https://www.acmicpc.net/problem/2636) |
