@@ -1,0 +1,60 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class BJ_G4_15685_드래곤커브 {
+    static int[][] dist = {{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
+    static int[][] map = new int[101][101];
+
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        StringTokenizer st;
+        for(int i=0; i<N; i++) {
+            st = new StringTokenizer(br.readLine());
+            int y = Integer.parseInt(st.nextToken());
+            int x = Integer.parseInt(st.nextToken());
+            int d = Integer.parseInt(st.nextToken());
+            int g = Integer.parseInt(st.nextToken());
+            ArrayList<Integer> distList = addDist(d, g);
+            setMap(x, y, distList);
+        }
+
+        int cnt = 0;
+        for(int i=0; i<100; i++) {
+            for(int j=0; j<100; j++) {
+                if(map[i][j] == 1 && map[i+1][j] == 1 && map[i][j+1] == 1 && map[i+1][j+1] == 1) cnt++;
+            }
+        }
+        System.out.println(cnt);
+    }
+
+    private static ArrayList<Integer> addDist(int d, int g) {
+        ArrayList<Integer> dl = new ArrayList<>();
+        dl.add(d);
+        for(int i=0; i<g; i++) {
+            for(int j=dl.size()-1; j>=0; j--) {
+                dl.add((dl.get(j)+1)%4);
+            }
+        }
+
+        return dl;
+    }
+
+    private static void setMap(int startX, int startY, ArrayList<Integer> dl) {
+        int nx = startX;
+        int ny = startY;
+        map[nx][ny] = 1;
+        for(int i=0; i<dl.size(); i++) {
+            nx += dist[dl.get(i)][0];
+            ny += dist[dl.get(i)][1];
+            map[nx][ny] = 1;
+        }
+    }
+
+    private static boolean isIn(int x, int y) {
+        return 1<=x && x<=100 && 1<=y && y<=100;
+    }
+}
