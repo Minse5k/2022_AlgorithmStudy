@@ -5,6 +5,7 @@
 > 스터디는 다음 알고리즘 사이트에 있는 문제로 진행한다.
 [BAEKJOON](https://www.acmicpc.net/)
 [programmers](https://programmers.co.kr/)
+[SWEA](https://swexpertacademy.com/main/main.do)
 
 ## :ledger: 진행방식
 
