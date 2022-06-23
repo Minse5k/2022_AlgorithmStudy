@@ -1,0 +1,73 @@
+package 백준;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+import java.util.StringTokenizer;
+
+public class BJ_G4_1953_팀배분 {
+    static int N;
+    static ArrayList<Integer>[] list;
+    static boolean[] visited;
+    static PriorityQueue<Integer> teamBlue = new PriorityQueue<>();
+    static PriorityQueue<Integer> teamWhite = new PriorityQueue<>();
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        StringBuilder ans = new StringBuilder();
+
+        N = Integer.parseInt(br.readLine());
+        list = new ArrayList[N+1];
+        visited = new boolean[N+1];
+        for(int i=1; i<=N; i++) {
+            list[i] = new ArrayList<>();
+            st = new StringTokenizer(br.readLine());
+            int len = Integer.parseInt(st.nextToken());
+
+            for(int l=0; l<len; l++) {
+                int a = Integer.parseInt(st.nextToken());
+                list[i].add(a);
+            }
+        }
+
+        for(int i=1; i<=N; i++) {
+            if(visited[i]) continue;
+            visited[i] = true;
+            teamWhite.add(i);
+            dfs(i, false);
+        }
+
+        ans.append(teamWhite.size() + "\n");
+        while(!teamWhite.isEmpty()) {
+            ans.append(teamWhite.poll());
+            if(teamWhite.size() >= 1) ans.append(" ");
+        }
+
+        ans.append("\n" + teamBlue.size() + "\n");
+        while(!teamBlue.isEmpty()) {
+            ans.append(teamBlue.poll());
+            if(teamBlue.size() >= 1) ans.append(" ");
+        }
+
+        System.out.printf("%s", ans.toString());
+    }
+
+    public static void dfs(int node, boolean isWhite) {
+        if(isWhite) {
+            for(int next: list[node]) {
+                if(visited[next]) continue;
+                visited[next] = true;
+                teamWhite.add(next);
+                dfs(next, false);
+            }
+        } else {
+            for(int next: list[node]) {
+                if(visited[next]) continue;
+                visited[next] = true;
+                teamBlue.add(next);
+                dfs(next, true);
+            }
+        }
+    }
+}
