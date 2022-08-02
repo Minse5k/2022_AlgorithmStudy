@@ -1,0 +1,47 @@
+const getTime = (timeString) => {
+  const arr = timeString.split(":").map((v) => parseInt(v));
+  return arr[0] * 60 * 60 + arr[1] * 60 + arr[2];
+};
+const getTimeToString = (timeNum) => {
+  let hour = (timeNum / 3600) >> 0;
+  let min = (timeNum / 60) % 60 >> 0;
+  let sec = timeNum % 60;
+
+  hour = hour <= 9 ? "0" + hour : hour;
+  min = min <= 9 ? "0" + min : min;
+  sec = sec <= 9 ? "0" + sec : sec;
+
+  return `${hour}:${min}:${sec}`;
+};
+
+function solution(play_time, adv_time, logs) {
+  const playTime = getTime(play_time);
+  const advTime = getTime(adv_time);
+  const time = Array.from({ length: playTime }, () => 0);
+
+  logs.forEach((log) => {
+    const [startTimeString, endTimeString] = log.split("-");
+    const startTime = getTime(startTimeString);
+    const endTime = getTime(endTimeString);
+
+    time[startTime]++;
+    time[endTime]--;
+  });
+  for (let i = 1; i < playTime; i++) {
+    time[i] += time[i - 1];
+  }
+  for (let i = 1; i < playTime; i++) {
+    time[i] += time[i - 1];
+  }
+
+  let sum = time[advTime - 1];
+  let answer = 0;
+
+  for (let i = advTime - 1; i < playTime; i++) {
+    if (sum < time[i] - time[i - advTime]) {
+      sum = time[i] - time[i - advTime];
+      answer = i - advTime + 1;
+    }
+  }
+  return getTimeToString(answer);
+}
