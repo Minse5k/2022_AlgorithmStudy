@@ -1,15 +1,19 @@
 function solution(topping) {
-  var answer = 0;
-  const front = new Set();
-  topping.forEach((v, idx) => {
-    front.add(v);
+    var answer = 0;
+    const len = topping.length;
+    const front = new Set();
     const back = new Set();
-    for (let i = idx + 1; i < topping.length; i++) {
-      back.add(topping[i]);
+    const frontCnt = Array.from({length: len});
+    const backCnt = Array.from({length: len});
+    topping.forEach((v, idx) => {
+        front.add(v);
+        back.add(topping[len-idx-1]);
+        backCnt[len-1-idx] = back.size;
+        frontCnt[idx] = front.size;
+    });
+    console.log(frontCnt, backCnt)
+    for(let i=0; i<len-1; i++) {
+        if(frontCnt[i] === backCnt[i+1]) answer++;
     }
-    if (front.size === back.size) answer++;
-  });
   return answer;
 }
-
-solution([1, 2, 1, 3, 1, 4, 1, 2]);
