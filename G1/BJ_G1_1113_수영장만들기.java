@@ -29,7 +29,7 @@ public class BJ_G1_1113_수영장만들기 {
             String str = br.readLine();
             for(int j=0; j<M; j++) {
                 map[i][j] = str.charAt(j)-'0';
-                if(max < map[i][j]) max = map[i][j];
+                if(max < map[i][j]) max = map[i][j]; 
                 if(min > map[i][j]) min = map[i][j];
             }
         }
