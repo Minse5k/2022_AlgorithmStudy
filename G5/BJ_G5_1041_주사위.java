@@ -10,7 +10,7 @@ public class BJ_G5_1041_주사위 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
-
+    
         N = Long.parseLong(br.readLine());
         arr = new int[6];
         st = new StringTokenizer(br.readLine());
