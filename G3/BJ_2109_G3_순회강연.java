@@ -18,7 +18,7 @@ public class BJ_G2_12100_2048Easy {
             for(int j=0; j<N; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
-        }
+        }     
 
         playGame(map, 0);
         System.out.println(max);
