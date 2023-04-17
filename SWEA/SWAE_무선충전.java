@@ -9,7 +9,7 @@ class BC {
 	int x;
 	int y;
 	int c;
-	int p;
+	int p;            
 
 	BC(int x, int y, int c, int p) {
 		this.x = x;
