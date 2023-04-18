@@ -13,7 +13,7 @@ public class BJ_G4_11559_PuyoPuyo {
             this.x = x;
             this.y = y;
         }
-    }
+    }           
     static char[][] map = new char[12][];
     static boolean[][] isBigGroup = new boolean[12][6];
     static int[][] dist = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
