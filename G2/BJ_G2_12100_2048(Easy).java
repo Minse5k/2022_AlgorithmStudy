@@ -14,7 +14,7 @@ public class BJ_G2_12100_2048Easy {
 
         int[][] map = new int[N][N];  
         for(int i=0; i<N; i++) {
-            st = new StringTokenizer(br.readLine());
+            st = new StringTokenizer(br.readLine());             
             for(int j=0; j<N; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
