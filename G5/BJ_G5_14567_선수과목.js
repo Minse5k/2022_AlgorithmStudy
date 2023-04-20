@@ -17,3 +17,4 @@ arr.forEach(([A, B]) => {
   dp[B - 1] = Math.max(dp[B - 1], dp[A - 1] + 1);
 });
 console.log(dp.join(" "));
+            
