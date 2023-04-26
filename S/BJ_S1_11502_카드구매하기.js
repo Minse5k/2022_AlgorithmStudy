@@ -10,5 +10,5 @@ for (let i = 1; i <= N; i++) {
     dp[i] = Math.max(dp[i], dp[i - j] + cards[j - 1]);
   }
 }
-
+        
 console.log(dp[N]);
