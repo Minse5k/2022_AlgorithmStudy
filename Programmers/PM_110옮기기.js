@@ -20,5 +20,5 @@ function solution(s) {
   });
   return answer;
 }
-
+          
 solution(["1110", "100111100", "0111111010"]);
